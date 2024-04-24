@@ -1,16 +1,70 @@
+*{
+    margin: 0;
+    padding: 10;
+}
 
 .cabecalho {
-    background-color: #47eb47;
-    color: rgb(3, 3, 3);
+    background-color: rgb(17, 245, 119);
+    color: white;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
 }
 
 .cabecalho-imagem{
-   width: 10%;  
+    width: 12%;
+
+}
+.cabecalho-imagem-item{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;
 }
 
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
+.escola-imagem{
+    width: 20%;
+}
+
+.Loja{
+    background-image: linear-gradient(#fff, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escola-div-conteudo{
+    width: 25%;
+}
+
+.Titulo-da-loja{
+   padding: 24px 0;
+}
+
+.estudante-imagem{
+   width: 120px;
+}
+
+.estudante-icone{
+   width: 24px;
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+
+.Colaboradores{
+    text-align: center;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 80px;
+    padding: 30px 0;
+   
 }
